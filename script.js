@@ -89,7 +89,7 @@ document.getElementById('emailForm').addEventListener('submit', function(e) {
     e.preventDefault();
     const message = document.getElementById('message').value;
     const subject = "New message from portfolio contact form";
-    const mailtoLink = `mailto:mufid.anwari01@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(message)}`;
+    const mailtoLink = `mailto:raditya.muli06@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(message)}`;
     window.location.href = mailtoLink;
 });
 
